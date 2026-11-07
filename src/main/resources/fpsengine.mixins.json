@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.fpsengine.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "defaultRequire": 0,
+  "client": [
+    "ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

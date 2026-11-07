@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsengine",
+  "version": "1.0.0",
+  "name": "FPSEngine",
+  "description": "CPU-side culling and throttling for distant entities and particles.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fpsengine.FPSEngine"]
+  },
+  "mixins": ["fpsengine.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
